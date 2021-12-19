@@ -1,4 +1,4 @@
-# UNDER CONSTRUCTION Jubeat-3D-printed-cab-eddition-
+# UNDER CONSTRUCTION Jubeat-3D-printed-cab-edition-
 A 300 x 300 Jubeat con
 Hi 
 This is gonna be a quick and summarized version and im typing this while sleep deprived so feel free to ask me questions at
@@ -9,16 +9,17 @@ This was a project made to make Jubeat cons more accessible, I love the game a l
 The project was mostly copied from a different project using mainly acrylic cuts and hardware, but made cheaper by using 3D printing and lesser hardware in total while only needing acrylic buttons.
 
 -CONSTRUCTION
-So the parts are sandwitch into the following order top down 
+So the parts are sandwich into the following order top down 
 Front, Core and then Base. 
 The Core holds all the switches and each button will need a switch. 
-these switches are the ones used for most mouses(Use the ones with the 2m mounting holes only and youll need 64 of them)
+these switches are the ones used for most mouses(Use the ones with the 2m mounting holes only and you'll need 64 of them)
+![Screenshot_20210910-174655_Instagram](https://user-images.githubusercontent.com/92096985/146663522-45345d05-0789-4c17-a067-c4f630804e9c.jpg)
 
 -This project is based on this other project made from acrylic but with no hex pins
 and only needing M2x10x4(x128 FRICTION FITTED INTO THE CORE FRAME) and M3x8x6(x50 on the front and base parts)
 
 -BODY
-Jubeat Core 9587coreframe_v03_fixed.stl requires modification(cut along the Z axsis to reduce height of the Core) 
+Jubeat Core 9587coreframe_v03_fixed.stl requires modification(cut along the Z axis to reduce height of the Core) 
 for the switches you use based on the switches(Leaver or none) cuz travel distance of the switches differ a lot.
 
 -BOARD AND CONNECTIVITY
@@ -37,10 +38,16 @@ I HIGHLY RECOMMEND FUSING WITH GLASS GLUE(THE ONES THEY USE FOR TV SCREENS) OR R
 
 -ASSEMBLY 
 Insert all 64 switches into the Core first using th 2M screws.
-Solder and arrange 4 switches to one button based on the button's layout to the switches.(Each button needs 4 switches)
-Connect the 4 switches to one main Wire out, and that wire would be the input for that button. 
+Solder and arrange 4 switches to one button based on the button's shape(refer to pic below) to the switches.(Each button needs 4 switches)
+Connect the 4 switches to one Main Wire out, and that wire would be the input for that button. 
+![button](https://user-images.githubusercontent.com/92096985/146663731-eddbf7cc-2d28-4f2a-a5e1-f98aa5483521.png)
+Repeat this 15 more times to and connect each button's Main Wire to the board.
+![beans](https://user-images.githubusercontent.com/92096985/146663830-876db9bd-dfed-4791-be73-de85ad02d6a6.jpg)
 
-anyways feel free to contact me about this project, I personally enjoy the game alot and would like you to build this as well
+
+You should be left with 2 more extra input spaces on the arduino pro micro so feelfree to add some keyboard switches.
+
+anyways feel free to contact me about this project, I personally enjoy the game a lot and would like you to build this as well
 Thanks for reading ^^
 
 Old videos from the other project.
@@ -50,5 +57,7 @@ Summary of the construction: https://youtu.be/bemd8mn8H4E
 
 OG vid : https://www.youtube.com/watch?v=Gkj1iS0f2ws
  
+
+
 
 
