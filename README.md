@@ -40,7 +40,7 @@ I HIGHLY RECOMMEND FUSING WITH GLASS GLUE(THE ONES THEY USE FOR TV SCREENS) OR R
 Insert all 64 switches into the Core first using th 2M screws.
 Solder and arrange 4 switches to one button based on the button's shape(refer to pic below) to the switches.(Each button needs 4 switches)
 Connect the 4 switches to one Main Wire out, and that wire would be the input for that button. 
-![button](https://user-images.githubusercontent.com/92096985/146663731-eddbf7cc-2d28-4f2a-a5e1-f98aa5483521.png)
+![button](https://user-images.githubusercontent.com/92096985/146663995-340e70f1-2794-4b04-8bbb-99fcbba42398.png)
 Repeat this 15 more times to and connect each button's Main Wire to the board.
 ![beans](https://user-images.githubusercontent.com/92096985/146663830-876db9bd-dfed-4791-be73-de85ad02d6a6.jpg)
 
