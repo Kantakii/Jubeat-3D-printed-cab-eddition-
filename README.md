@@ -4,6 +4,17 @@ Hi
 This is gonna be a quick and summarized version and im typing this while sleep deprived so feel free to ask me questions at
  Discord : MiMi#4182
 
+
+Things you'll need
+a printer with 300x300 printbed 
+x64 microswitches(refer to the pic below)
+arduino pro micro
+x50  M3x8x6
+x128 M2x10x4
+soldering set with thin wires (maybe awg20 wires)
+![7e83328b-1606-455e-9dd7-ba577b0d3b85](https://user-images.githubusercontent.com/92096985/146870197-67868bca-1c97-4c53-ba8f-9d1479ccd0af.jpg)
+
+
 -Intro
 This was a project made to make Jubeat cons more accessible, I love the game a lot and I want to share my love for it by helping others achieve their cab goals.
 The project was mostly copied from a different project using mainly acrylic cuts and hardware, but made cheaper by using 3D printing and lesser hardware in total while only needing acrylic buttons.
