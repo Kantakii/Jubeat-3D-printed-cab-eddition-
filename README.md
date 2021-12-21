@@ -7,11 +7,11 @@ This is gonna be a quick and summarized version and im typing this while sleep d
 
 Things you'll need
 a printer with 300x300 printbed 
-x64 microswitches(refer to the pic below)
-arduino pro micro
-x50  M3x8x6
-x128 M2x10x4
-soldering set with thin wires (maybe awg20 wires)
+,x64 microswitches(refer to the pic below)
+,arduino pro micro
+,x50  M3x8x6
+,x128 M2x10x4
+and soldering set with thin wires (maybe awg20 wires)
 ![7e83328b-1606-455e-9dd7-ba577b0d3b85](https://user-images.githubusercontent.com/92096985/146870197-67868bca-1c97-4c53-ba8f-9d1479ccd0af.jpg)
 
 
