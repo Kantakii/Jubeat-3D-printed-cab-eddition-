@@ -12,6 +12,7 @@ a printer with 300x300 printbed
 ,x50  M3x8x6
 ,x128 M2x10x4
 and soldering set with thin wires (maybe awg20 wires)
+
 ![7e83328b-1606-455e-9dd7-ba577b0d3b85](https://user-images.githubusercontent.com/92096985/146870197-67868bca-1c97-4c53-ba8f-9d1479ccd0af.jpg)
 
 
@@ -19,11 +20,17 @@ and soldering set with thin wires (maybe awg20 wires)
 This was a project made to make Jubeat cons more accessible, I love the game a lot and I want to share my love for it by helping others achieve their cab goals.
 The project was mostly copied from a different project using mainly acrylic cuts and hardware, but made cheaper by using 3D printing and lesser hardware in total while only needing acrylic buttons.
 
--CONSTRUCTION
+-3D PRINTED PARTS
+ther are 3 printed parts needed(no support needed)
+Front("jubeat Front frame v4 CUT.stl" 3 walls 20% infill),
+Core("Jubeat Core 9587coreframe_v03_fixed.stl" 1 wall) & 
+Base("jubeat Base wirelog cut.stl" 1 wall).)
+
 So the parts are sandwich into the following order top down 
 Front, Core and then Base. 
 The Core holds all the switches and each button will need a switch. 
 these switches are the ones used for most mouses(Use the ones with the 2m mounting holes only and you'll need 64 of them)
+
 ![Screenshot_20210910-174655_Instagram](https://user-images.githubusercontent.com/92096985/146663522-45345d05-0789-4c17-a067-c4f630804e9c.jpg)
 
 -This project is based on this other project made from acrylic but with no hex pins
@@ -35,6 +42,7 @@ for the switches you use based on the switches(Leaver or none) cuz travel distan
 The travel distance of each button would also require some changes to buttons(more on that in the button section).
 Make sure you test print the core first, insert a set of switches and a button and test the travel if you are particular about distance.
 If not cut the core about this much using Slic3r, This travel length should be perfect for almost any configuration.
+
 ![image](https://user-images.githubusercontent.com/92096985/147397933-82bbf0a6-292d-4b16-807b-fb70c4afa6a8.png)
 
 
@@ -48,6 +56,7 @@ The arduino file makes the controller into a 4x4 HID Game controller(joypad.ino)
 There a are many switches out there, Make sure the ones you are planning to use have a M2 size holes.
 I used DM1-01P-30-3 and some Huaon mouse switches for my leaver and non-leaver builds.
 Depending on your preference of switches, you'll have to adjust these parts(CORE and TOP PART of the button)
+
 ![image](https://user-images.githubusercontent.com/92096985/147398102-d61e58db-59e5-4688-a090-cfcaa898eda1.png)
 Buttons are laser cutted so refer to the picture for more information. There is also a laser cut file.
 The construction of the buttons contain 5.85cm square x 4mm acrylic (clear colorless) which makes up for the TOP PART.
@@ -55,6 +64,7 @@ you'll have to glue it to the PDF stated "Jubeat button" x 2mm acrylic (clear co
 I HIGHLY RECOMMEND FUSING WITH GLASS GLUE(THE ONES THEY USE FOR TV SCREENS) OR RESIN GLUE.Anything that cures with UV would be good.
 You can change the height of each button by stacking acrylic 5.85cm square x Xmm OR ordering a thicker square. This can help with the travel distance compensation.
 Gaps will be present between the frame and the buttons if your button travel distance is long. Make sure you get a thickness of 6mm for your TOP PART acrylic Square.
+
 ![Jubeat button](https://user-images.githubusercontent.com/92096985/146663272-ae2201dd-17d7-4d54-856c-5219c3eac1ad.PNG)
 
 
@@ -65,8 +75,10 @@ Insert all 64 switches into the "Core" first using th 2M screws.
 STEP 2
 Solder and arrange 4 switches to one button based on the button's shape(refer to pic below) to the switches.(Each button needs 4 switches)
 Connect the 4 switches to one Main Wire out, and that wire would be the input for that button. 
+
 ![button](https://user-images.githubusercontent.com/92096985/146663995-340e70f1-2794-4b04-8bbb-99fcbba42398.png)
 Repeat this 15 more times to and connect each button's Main Wire to the board.
+
 ![beans](https://user-images.githubusercontent.com/92096985/146663830-876db9bd-dfed-4791-be73-de85ad02d6a6.jpg)
 
 STEP 3
@@ -88,6 +100,7 @@ UPLOADING CODE AND TESTING.
 Upload joypad.ino to the Pro micro board. 
 Run "set up USB Game Controller" program(pic below) and check if Arduino Leonardo is present, Click on Properties and press every individual buttons.
 Check if all buttons are working and Active.
+
 ![image](https://user-images.githubusercontent.com/92096985/147398568-d3e2b02f-8d2e-48b6-ba02-2cd2083033a7.png)
  
 STEP 7
