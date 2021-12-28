@@ -7,6 +7,7 @@ This is gonna be a quick and summarized version and im typing this while sleep d
 
 
 Things you'll need
+
 -a printer with 300x300 printbed 
 
 -x64 microswitches(Like DM1-01P-30-3)
