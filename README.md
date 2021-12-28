@@ -1,5 +1,5 @@
 #  Jubeat-3D-printed-cab-edition-
-A 300 x 300 Jubeat con
+A 300 x 300 Jubeat con 
 Hi 
 This is gonna be a quick and summarized version and im typing this while sleep deprived so feel free to ask me questions at
  Discord : MiMi#4182
@@ -12,6 +12,7 @@ a printer with 300x300 printbed
 ,arduino pro micro
 ,x50  M3x8x6
 ,x128 M2x10x4
+,24"/23" monitor. 
 and soldering set with thin wires (maybe awg20 wires)
 
 
