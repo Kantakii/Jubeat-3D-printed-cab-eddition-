@@ -7,13 +7,19 @@ This is gonna be a quick and summarized version and im typing this while sleep d
 
 
 Things you'll need
-a printer with 300x300 printbed 
-,x64 microswitches(Like DM1-01P-30-3)
-,arduino pro micro
-,x50  M3x8x6
-,x128 M2x10x4
-,24"/23" monitor. 
-and soldering set with thin wires (maybe awg20 wires)
+-a printer with 300x300 printbed 
+
+-x64 microswitches(Like DM1-01P-30-3)
+
+-arduino pro micro
+
+-x50  M3x8x6
+
+-x128 M2x10x4
+
+-24"/23" monitor. 
+
+-and soldering set with thin wires (maybe awg20 wires)
 
 
 -Intro
