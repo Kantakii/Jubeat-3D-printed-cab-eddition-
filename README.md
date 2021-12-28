@@ -20,9 +20,9 @@ This was a project made to make Jubeat cons more accessible, I love the game a l
 The project was mostly copied from a different project using mainly acrylic cuts and hardware, but made cheaper by using 3D printing and lesser hardware in total while only needing acrylic buttons.
 
 -3D PRINTED PARTS
-ther are 3 printed parts needed(no support needed)
-Front("jubeat Front frame v4 CUT.stl" 3 walls 20% infill),
-Core("Jubeat Core 9587coreframe_v03_fixed.stl" 1 wall) & 
+there are 3 printed parts needed(no support needed)
+Front("jubeat Front frame v4 CUT.stl" 1 wall),
+Core("Jubeat Core 9587coreframe_v03_fixed.stl" 3 walls 20% infill) & 
 Base("jubeat Base wirelog cut.stl" 1 wall).)
 
 So the parts are sandwich into the following order top down 
@@ -57,6 +57,8 @@ I used DM1-01P-30-3 and some Huaon mouse switches for my leaver and non-leaver b
 Depending on your preference of switches, you'll have to adjust these parts(CORE and TOP PART of the button)
 
 ![image](https://user-images.githubusercontent.com/92096985/147398102-d61e58db-59e5-4688-a090-cfcaa898eda1.png)
+
+
 Buttons are laser cutted so refer to the picture for more information. There is also a laser cut file.
 The construction of the buttons contain 5.85cm square x 4mm acrylic (clear colorless) which makes up for the TOP PART.
 you'll have to glue it to the PDF stated "Jubeat button" x 2mm acrylic (clear colorless) which activates the switches. BOTTOM PART.
@@ -86,7 +88,7 @@ Feed the Main Wires out by rows and arrange them by "LANE", having two buttons i
 ![illustration soldering](https://user-images.githubusercontent.com/92096985/147398442-bcb2d3c5-269a-4be6-897e-b41c507542bb.png)
 
 STEP 4
-Once the wires are neatly arranged, Attach the "jubeat Base wirelog cut .stl" Part to secure the wires under the frame. Use x25(M3x8x6) for nounting.
+Once the wires are neatly arranged, Attach the "jubeat Base wirelog cut .stl" Part to secure the wires under the frame. Use x25(M3x8x6) for mounting.
 
 STEP 5
 Construct the buttons.
