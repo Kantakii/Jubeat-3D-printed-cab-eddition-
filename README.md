@@ -32,7 +32,9 @@ The project was mostly copied from a different project using mainly acrylic cuts
 there are 3 printed parts needed(no support needed)
 
 Front("jubeat Front frame v4 CUT.stl" 1 wall),
+
 Core("Jubeat Core 9587coreframe_v03_fixed.stl" 3 walls 20% infill) & 
+
 Base("jubeat Base wirelog cut.stl" 1 wall).)
 
 So the parts are sandwich into the following order top down 
