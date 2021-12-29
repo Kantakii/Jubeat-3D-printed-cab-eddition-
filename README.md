@@ -28,7 +28,9 @@ This was a project made to make Jubeat cons more accessible, I love the game a l
 The project was mostly copied from a different project using mainly acrylic cuts and hardware, but made cheaper by using 3D printing and lesser hardware in total while only needing acrylic buttons.
 
 -3D PRINTED PARTS
+
 there are 3 printed parts needed(no support needed)
+
 Front("jubeat Front frame v4 CUT.stl" 1 wall),
 Core("Jubeat Core 9587coreframe_v03_fixed.stl" 3 walls 20% infill) & 
 Base("jubeat Base wirelog cut.stl" 1 wall).)
