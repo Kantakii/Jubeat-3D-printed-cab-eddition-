@@ -27,6 +27,7 @@ Things you'll need
 
 
 -Intro
+
 This was a project made to make Jubeat cons more accessible, I love the game a lot and I want to share my love for it by helping others achieve their cab goals.
 The project was mostly copied from a different project using mainly acrylic cuts and hardware, but made cheaper by using 3D printing and lesser hardware in total while only needing acrylic buttons.
 
@@ -37,6 +38,7 @@ and only needing M2x10x4(x128 FRICTION FITTED INTO THE CORE FRAME) and M3x8x6(x5
 
 
 -3D PRINTED PARTS
+
 
 there are 3 printed parts needed(no support needed)
 
@@ -56,12 +58,9 @@ these switches are the ones used for most mouses(Use the ones with the 2m mounti
 
 
 
-
- __________________________________________________________________________________________________________________________________________________________________________
-
-
-
 -BODY
+
+
 Jubeat Core 9587coreframe_v03_fixed.stl requires modification(cut along the Z axis to reduce height of the Core) 
 for the switches you use based on the switches(Leaver or none) cuz travel distance of the switches differ a lot.
 The travel distance of each button would also require some changes to buttons(more on that in the button section).
@@ -75,6 +74,8 @@ If not cut the core about this much using Slic3r, This travel length should be p
 
 
 -CODE AND BOARD
+
+
 This project runs on "Arduino Pro Micro". codes are for that board at least. 
 The code takes Inputs from all input points so just connect the buttons there and bind accordingly.
 I've got permission to host a copy of CrazyRedMachine's JubeatIO code and took the liberty to change the input points to suit the Pro Micro better.
@@ -86,6 +87,8 @@ https://github.com/CrazyRedMachine/jubeatIO
 
 
 -BUTTONS & SWITCHES
+
+
 There a are many switches out there, Make sure the ones you are planning to use have a M2 size holes.
 I used DM1-01P-30-3 and some Huaon mouse switches for my leaver and non-leaver builds.
 Depending on your preference of switches, you'll have to adjust these parts(CORE and TOP PART of the button)
@@ -107,11 +110,18 @@ Gaps will be present between the frame and the buttons if your button travel dis
 
 
 -ASSEMBLY 
+
+
 STEP 1
+
 Insert all 64 switches into the "Core" first using th 2M screws.
+You will be using the core to hold all the switches in place for easier soldering.
+DONT HEAT UP THE SWITCHES FOR TOO LONG, IT'S EASY TO MELT THE SWITCHES AND DAMAGE THEM, WIRE WRAP THE SWITCHES IF POSSIBLE.
 
  ____________________________________________________________
 STEP 2
+
+
 Solder and arrange 4 switches to one button based on the button's shape(refer to pic below) to the switches.(Each button needs 4 switches)
 Connect the 4 switches to one Main Wire out, and that wire would be the input for that button. 
 
@@ -122,22 +132,30 @@ Repeat this 15 more times to and connect each button's Main Wire to the board.
 
  ____________________________________________________________
 STEP 3
+
+
 Manage the wires and align them directly under the frame, you're gonna have to finesse the wires and tape them to the frame so they stay under the frame. 
 Feed the Main Wires out by rows and arrange them by "LANE", having two buttons in a Lane fead out to the direction they are closest too. 
 ![illustration soldering](https://user-images.githubusercontent.com/92096985/147398442-bcb2d3c5-269a-4be6-897e-b41c507542bb.png)
 
  ____________________________________________________________
 STEP 4
+
+
 Once the wires are neatly arranged, Attach the "jubeat Base wirelog cut .stl" Part to secure the wires under the frame. Use x25(M3x8x6) for mounting.
 
  ____________________________________________________________
 STEP 5
+
+
 Construct the buttons.
 Sand down the edges of the TOP PART acrylic button and create a smooth edge for charts with "sliding" involved(DO THIS ONLY ON ONE SIDE).
 Glue the TOP PART acrylic to BOTTOM PART acrylic button parts with the recommended glue, make sure to remove the acrylic protective film on the contact point where the buttons touch.
 Once the glue dries you can place them onto the "Core" assembly.
  ____________________________________________________________
 STEP 6
+
+
 UPLOADING CODE AND TESTING.
 Upload joypad.ino to the Pro micro board. 
 Run "set up USB Game Controller" program(pic below) and check if Arduino Leonardo is present, Click on Properties and press every individual buttons.
@@ -147,6 +165,8 @@ Check if all buttons are working and Active.
  
   ____________________________________________________________
 STEP 7
+
+
 MOUNTING.
 Once your controller is working, attach "jubeat Front frame v4 CUT .stl" with all 16 buttons in-between.
 If your buttons are getting stuck between the Front Frame, try using "jubeat Front thinned with logos .stl".
@@ -154,6 +174,8 @@ Mounting onto a monitor is simple, you can use foam double sided tape to directl
 
  ____________________________________________________________
 STEP 8
+
+
 Service>
 I/O INPUT CHECK>
 SCREEN CHECK> 
